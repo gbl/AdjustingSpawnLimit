@@ -1,0 +1,9 @@
+minimumPercent:     50
+stepSize:           5
+decreaseUnderTPS:   19
+increaseOverTPS:    19.5
+extendedLogging:    true
+# these two do not work in this version!
+disablePigmenAtLowerThan:   50
+enablePigmenAtHigherThan:   80
+

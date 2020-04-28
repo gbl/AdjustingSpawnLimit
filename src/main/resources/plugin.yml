@@ -1,0 +1,5 @@
+## YAML Template.
+name: AdjustingSpawnLimit
+main: de.guntram.paper.AdjustingSpawnLimit.Main
+version: 1.15.2
+api-version: 1.15
