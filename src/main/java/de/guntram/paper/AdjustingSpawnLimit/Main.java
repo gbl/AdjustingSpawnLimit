@@ -73,7 +73,7 @@ public class Main extends JavaPlugin implements Listener {
             } else if (tps[0] <= decreaseUnderTPS) {
                 currentPercent = Math.max(currentPercent-stepSize, minimumPercent);
             }
-            if (currentPercent != oldPercent | extendedLogging) {
+            if (currentPercent != oldPercent || extendedLogging) {
                 LOGGER.log(Level.INFO, "TPS was {2}, Adjusting percentage from {0} to {1}",
                         new Object[]{oldPercent, currentPercent, tps[0]});
             }
